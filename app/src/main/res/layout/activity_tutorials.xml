@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splach">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tutorials"
+        android:id="@+id/textView"
+        android:textSize="60sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Contouring"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Eyeliner"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Eyebrows"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Eyelashes"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Eyeshadow"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Foundation"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Lips"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Glitter"
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"
+/>
+
+</LinearLayout>
