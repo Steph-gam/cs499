@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tutorialback"
+    android:nestedScrollingEnabled="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eyeliner"
+            android:id="@+id/eyeliner"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 1: Trace The Lashline\nUse a pencil first to anchor the lash line and make a blueprint for your liquid liner, It's a gel liner in a self sharpening pencil. Very smooth application and one of the blackest colors out."
+            android:id="@+id/textView2"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gifone"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 2: Liquify Your Line\nNext trace the pencil line with a flat angled brush dipped in liquid pigment."
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/giftwo"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 3: Define Lashes\n Add a swipe of any mascara you like (I'm into cucumber-scented Rimmel Lift Me Up). But this isn't about lashes."
+            android:id="@+id/textView4"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gifthree"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 4: Clean It Up\nCheck out your wings and make sure they're symmetrical, then for an extra-sharp line, soak a cotton swab in makeup remover and gently slide it along the wing."
+            android:id="@+id/textView5"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/giffour"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+</ScrollView>

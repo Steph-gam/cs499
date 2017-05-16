@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tutorialback"
+    android:nestedScrollingEnabled="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eyebrows"
+            android:id="@+id/eyebrows"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 1: Brush it up\nThe first thing you're going to do is comb your hairs up to see where they need to be filled in, starting from the front working towards the tail of the brow."
+            android:id="@+id/textView2"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/brow"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 2: Measure it\nYour best brow aligns with the inner tear duct with an arch that's about 11 o'clock from right where sleep collects."
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/broww"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 3: Throw some shade\nNext you're going to use the Brow Wiz as a matte shadow that goes underneath the hairs to fill in density, especially where there are sparse spots, gently shading."
+            android:id="@+id/textView4"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/browww"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 4: Add detail\nThen adding a little bit more fullness to the front for that supermodel thickness, you're going to take the Brow Pen and you're going to just draw in hairs right at the front towards the nose and then you're also going to add more density to the tail."
+            android:id="@+id/textView5"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/browwww"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 5: Set it\nFinish with clear brow gel combing hairs up because you want to show that hair texture. It locks it in place and your brows are done."
+            android:id="@+id/textView6"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/browwwww"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+</ScrollView>

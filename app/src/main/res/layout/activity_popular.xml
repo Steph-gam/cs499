@@ -1,78 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/geometric">
+    android:background="@drawable/popularback"
+    >
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Popular Makeup Looks"
-        android:id="@+id/textView"
-        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#191654"
+        android:id="@+id/popular"
+        android:textSize="50sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp"/>
+        android:padding="10dp"/>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Natural"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        <Button
+            android:id="@+id/popular2"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/nightout"
+            android:text="Night Out"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:paddingTop="5dp"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
 
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Nightout"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+             />
 
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Professional"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        <Button
+            android:id="@+id/popular3"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/natural"
+            android:text="Natural"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:paddingTop="5dp"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
+            />
 
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Artistic"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+    </TableRow>
 
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Festival Inspired"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
 
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Glamup"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
+        <Button
+            android:id="@+id/popular4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/permanent"
+            android:paddingTop="5dp"
+            android:text="Permanent"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
 
+            />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/popular5"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/professional"
+            android:paddingTop="5dp"
+            android:text="Professional"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
+
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/popular6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/artistic"
+            android:paddingTop="5dp"
+            android:text="Artistic"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
+
+           />
+
+        <Button
+            android:id="@+id/popular7"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/festival"
+            android:paddingTop="5dp"
+            android:text="Festival"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
+
+             />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/popular8"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/face"
+            android:paddingTop="5dp"
+            android:text="Glam Up"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
+
+        />
+
+        <Button
+            android:id="@+id/popular9"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popularbuttons"
+            android:drawableTop="@drawable/bridal"
+            android:paddingTop="5dp"
+            android:text="Bridal"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"/>
+>
+    </TableRow>
+
+</TableLayout>

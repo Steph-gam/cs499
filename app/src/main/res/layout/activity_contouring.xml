@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tutorialback"
+    android:nestedScrollingEnabled="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contouring"
+            android:id="@+id/contouring"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 1: Map your face \nWith the darker of the two stick foundations, trace the temples. If you have a larger forehead, carry straight into the hairline to minimize it. To bring out your cheekbones, find the hollow part by placing your fingers on the sides of your face, and where you feel it dip underneath the bones, just above is where you place your pigment. With the nose, you can go a little bit narrower at the tip or you can carry it into the brow if you have a shorter nose to add length or width."
+            android:id="@+id/textView2"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/con"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 2: Blend it\nTake a damp beautyblender and tap over the area of the contour color, merging it into your base foundation. Tap in small circular motions using the bigger, rounded end of the beautyblender because it has more space. But for details like the sides of the nose, I flatten it and squeeze it into my hands."
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/conn"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 3: Get lit\nConcentrate the lighter foundation stick underneath your eyes, Dam-Mikkelsen says. If you want to go crazy you can do a little bit in the center of the forehead and on the chin, and the bridge of the nose. Blend any excess product with a damp beautyblender."
+            android:id="@+id/textView4"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/connn"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 4: Dust it\nWith a fluffy brush, dust the entire face with loose powder. Translucent is best for securing a cream foundation."
+            android:id="@+id/textView5"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/connnn"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+</ScrollView>

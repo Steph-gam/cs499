@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tutorialback"
+    android:nestedScrollingEnabled="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eyelashes"
+            android:id="@+id/eyelashes"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 1: Apply mascara\nCurl natural lashes and comb on a coat of mascara, creating a shelf to support the weight of your falsies."
+            android:id="@+id/textView2"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lashh"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 2: Cut to fit\nCut the lash band right down the center to create a large individual lash. It's easier to place than a full lash strip, which can become wonky and weird and asymmetrical."
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 3: Add adhesive\nTrace each lash band, one by one, with a laser-thin line of Duo and wait a few moments for the adhesive to dry a bit."
+            android:id="@+id/textView4"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 4: Put 'em on\nUsing your fingers, not tweezers, place your extension on the outer corner first, hugging that lash line tight. For an eye-lifting effect, Mikkelsen places the outer extension slightly above the natural lashline."
+            android:id="@+id/textView5"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lash"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+</ScrollView>

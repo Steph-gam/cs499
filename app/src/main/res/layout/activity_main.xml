@@ -1,43 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gem"
-    android:id="@+id/layout">
-
+    android:orientation="vertical"
+    android:background="@drawable/pin"
+    >
 
     <Button
-
-        android:id="@+id/tutorials"
+        android:id="@+id/tutorialsButton"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbuttons"
+        android:drawableTop="@drawable/tutorialsone"
+        android:paddingTop="15dp"
+        android:textSize="30sp"
         android:text="Tutorials"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:textColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        />
 
     <Button
-
-        android:id="@+id/tips"
+        android:id="@+id/tipsButton"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Tips (Do's and Dont's)"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbuttons"
+        android:drawableTop="@drawable/tutorialstwo"
+        android:text="Tips and Tricks"
+        android:textColor="#fff"
+        android:paddingTop="15dp"
+        android:textSize="35sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+/>
+
     <Button
-
-        android:id="@+id/popular"
+        android:id="@+id/popularButton"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Popular Makeup Looks"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbuttons"
+        android:drawableTop="@drawable/tutorialthree"
+        android:paddingTop="15dp"
         android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:text="Products"
+        android:textColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+
+        />
 
 
 </LinearLayout>

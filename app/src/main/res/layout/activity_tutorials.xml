@@ -1,97 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/splach">
 
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tutorialback"
+    >
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Tutorials"
-        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#ffff"
+        android:id="@+id/tutorials"
         android:textSize="60sp"
-        android:layout_gravity="center_horizontal" />
+        />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Contouring"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        android:layout_weight="1"
+        >
 
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
+        <Button
+            android:id="@+id/tutorials2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/eyeline"
+            android:padding="20dp"
+            android:text="Eyeliner"
+            android:textAllCaps="false"
+            android:drawablePadding="5dp"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/eyebrows"
+            android:padding="20dp"
+            android:drawablePadding="5dp"
+            android:text="Eyebrows"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials3"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/lashes"
+            android:padding="20dp"
+            android:drawablePadding="5dp"
+            android:text="Eyelashes"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials4"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Eyeliner"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        android:layout_weight="1"  >
 
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/eyeshadow"
+            android:padding="20dp"
+            android:text="Eyeshadow"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials5"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/foundation"
+            android:padding="20dp"
+            android:text="Foundation"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials6"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/brush"
+            android:padding="20dp"
+            android:textSize="13sp"
+            android:text="Contouring"
+            android:textAllCaps="false"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials7"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Eyebrows"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        android:layout_weight="1" >
 
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Eyelashes"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/lips"
+            android:padding="20dp"
+            android:text="Lips"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials8"
 
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Eyeshadow"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+            />
 
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Foundation"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/glitter"
+            android:padding="20dp"
+            android:text="Glitter"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials9"
 
-        android:id="@+id/button7"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Lips"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"/>
-    <Button
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tutorialsbutton"
+            android:drawableTop="@drawable/cheeks"
+            android:padding="20dp"
+            android:text="Cheeks"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:drawablePadding="5dp"
+            android:layout_margin="3dp"
+            android:id="@+id/tutorials10"
+            />
+    </TableRow>
 
-        android:id="@+id/button8"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:text="Glitter"
-        android:textSize="30sp"
-        android:background="@android:color/transparent"
-        style="?android:attr/borderlessButtonStyle"
-/>
 
-</LinearLayout>
+</TableLayout>

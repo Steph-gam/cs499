@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tutorialback"
+    android:nestedScrollingEnabled="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lips"
+            android:id="@+id/lips"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 1: Trace it\nWhen doing a fuller lip, start in the outer perimeter of the lip. When you look at your lips, we have the pigmented part that is the outer lip color that's a little bit more flesh-toned. And right above on the edge is that part that starts to bend into your face. So you're going to draw right above the flesh-toned part of your lip, and that creates a fuller, more exaggerated lip line."
+            android:id="@+id/textView2"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lip"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 2: Fill it in\nTrace from the inner corner to the bow, and drop down and repeat on the other side and right below on the bottom lip line, and use the same color to fill in the entire lip. Kylie does one color and it looks very full."
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lipp"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 3: Lighten up\nTo make it more dimensional, use the lighter liner, Naked, in the center of the lip on the top and bottom. With your brush, swipe left to right and blend those edges out so it creates a gradient look."
+            android:id="@+id/textView4"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lippp"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 4: Go three-dimensional\nIf you want to add a bit of shine without the stickiness of a gloss, take High Tea, swipe that through the center of the lip and it's done."
+            android:id="@+id/textView5"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lipppp"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Step 5: Blend it\nOr don't, but blending is the difference between an Anderson and a Jenner liner look. It's your call."
+            android:id="@+id/textView6"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tipsbutton"
+            android:textColor="#fff"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lippppp"
+            android:adjustViewBounds="true"
+            />
+ </LinearLayout>
+</ScrollView>
